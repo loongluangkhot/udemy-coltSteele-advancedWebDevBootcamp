@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bitcoin Price Checker</title>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Bitcoin Price Checker</h1>
+        <p>Bitcoin price is:</p>
+        <p id="price"></p>
+        <div>
+            <input type="radio" name="currency" value="USD" id="USD" checked/>
+            <label for="USD">USD</label>
+            <input type="radio" name="currency" value="GBP" id="GBP"/>
+            <label for="GBP">GBP</label>
+            <input type="radio" name="currency" value="EUR" id="EUR"/>
+            <label for="EUR">EUR</label>
+            <button id="refresh">Refresh</button>
+        </div>
+        
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
